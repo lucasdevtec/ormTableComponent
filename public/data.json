@@ -1,0 +1,28 @@
+[
+  {
+    "reserva": { "numero": 1102, "data": "16/12/2023", "horario": "16:50" },
+    "status": true,
+    "cliente": "André Lira",
+    "chInAndChOut": { "in": "17/12/2023", "out": "18/12/2023" },
+    "formaDePagamento": {
+      "bandeira": "Mastercard",
+      "ultsDigitos": "***1871",
+      "vencimento": "12/26"
+    },
+    "valorPago": 270.0,
+    "statusCobranca": { "status": "Agendada", "agendadoEm": "17/12/2023" }
+  },
+  {
+    "reserva": { "numero": 1234, "data": "15/12/2023", "horario": "16:20" },
+    "status": false,
+    "cliente": "Maria Lira",
+    "chInAndChOut": { "in": "18/12/2023", "out": "19/12/2023" },
+    "formaDePagamento": {
+      "bandeira": "Visa",
+      "ultsDigitos": "***9821",
+      "vencimento": "12/26"
+    },
+    "valorPago": 800.0,
+    "statusCobranca": { "status": "Agendada", "agendadoEm": "17/12/2023" }
+  }
+]
